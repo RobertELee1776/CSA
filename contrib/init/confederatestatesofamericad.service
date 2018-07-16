@@ -1,0 +1,22 @@
+[Unit]
+Description=Confederatestatesofamerica's distributed currency daemon
+After=network.target
+
+[Service]
+User=confederatestatesofamericacore
+Group=confederatestatesofamericacore
+
+Type=forking
+PIDFile=/var/lib/confederatestatesofamericad/confederatestatesofamericad.pid
+ExecStart=/usr/bin/confederatestatesofamericad -daemon -pid=/var/lib/confederatestatesofamericad/confederatestatesofamericad.pid \
+-conf=/etc/confederatestatesofamericacore/confederatestatesofamerica.conf -datadir=/var/lib/confederatestatesofamericad -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

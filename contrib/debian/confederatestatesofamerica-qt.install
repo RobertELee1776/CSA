@@ -1,0 +1,6 @@
+usr/local/bin/confederatestatesofamerica-qt usr/bin
+share/pixmaps/confederatestatesofamerica32.xpm usr/share/pixmaps
+share/pixmaps/confederatestatesofamerica16.xpm usr/share/pixmaps
+share/pixmaps/confederatestatesofamerica128.png usr/share/pixmaps
+debian/confederatestatesofamerica-qt.desktop usr/share/applications
+debian/confederatestatesofamerica-qt.protocol usr/share/kde4/services/

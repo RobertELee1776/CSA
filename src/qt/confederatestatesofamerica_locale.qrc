@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/confederatestatesofamerica_bg.qm</file>
+        <file alias="de">locale/confederatestatesofamerica_de.qm</file>
+        <file alias="en">locale/confederatestatesofamerica_en.qm</file>
+        <file alias="es">locale/confederatestatesofamerica_es.qm</file>
+        <file alias="fi">locale/confederatestatesofamerica_fi.qm</file>
+        <file alias="fr">locale/confederatestatesofamerica_fr.qm</file>
+        <file alias="it">locale/confederatestatesofamerica_it.qm</file>
+        <file alias="ja">locale/confederatestatesofamerica_ja.qm</file>
+        <file alias="nl">locale/confederatestatesofamerica_nl.qm</file>
+        <file alias="pl">locale/confederatestatesofamerica_pl.qm</file>
+        <file alias="pt">locale/confederatestatesofamerica_pt.qm</file>
+        <file alias="ru">locale/confederatestatesofamerica_ru.qm</file>
+        <file alias="sk">locale/confederatestatesofamerica_sk.qm</file>
+        <file alias="sv">locale/confederatestatesofamerica_sv.qm</file>
+        <file alias="vi">locale/confederatestatesofamerica_vi.qm</file>
+        <file alias="zh_CN">locale/confederatestatesofamerica_zh_CN.qm</file>
+        <file alias="zh_TW">locale/confederatestatesofamerica_zh_TW.qm</file>
+    </qresource>
+</RCC>

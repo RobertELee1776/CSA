@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[confederatestatesofamerica.qt-translation-012x]
+file_filter = src/qt/locale/confederatestatesofamerica_<lang>.ts
+source_file = src/qt/locale/confederatestatesofamerica_en.ts
+source_lang = en
