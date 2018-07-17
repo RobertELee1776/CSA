@@ -199,10 +199,13 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000008081ddd5a1673f7f635fc96d674ab0974556642c33e14b23391eefb35c2"));
         assert(genesis.hashMerkleRoot == uint256S("0x18fcbcedca3c8e50cc67d043c2345315018be43743fe89ee70a738b7c0232113"));
 
-        vSeeds.push_back(CDNSSeedData("confederatestatesofamerica.org", "dnsseed.confederatestatesofamerica.org"));
-        vSeeds.push_back(CDNSSeedData("confederatestatesofamericadot.io", "dnsseed.confederatestatesofamericadot.io"));
-        vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("confederatestatesofamericapay.io", "dnsseed.confederatestatesofamericapay.io"));
+        vFixedSeeds.clear();
+        vSeeds.clear();
+
+        // vSeeds.push_back(CDNSSeedData("confederatestatesofamerica.org", "dnsseed.confederatestatesofamerica.org"));
+        // vSeeds.push_back(CDNSSeedData("confederatestatesofamericadot.io", "dnsseed.confederatestatesofamericadot.io"));
+        // vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
+        // vSeeds.push_back(CDNSSeedData("confederatestatesofamericapay.io", "dnsseed.confederatestatesofamericapay.io"));
 
         // Confederatestatesofamerica addresses start with 'X'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
@@ -328,8 +331,8 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.push_back(CDNSSeedData("confederatestatesofamericadot.io",  "testnet-seed.confederatestatesofamericadot.io"));
-        vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
+        // vSeeds.push_back(CDNSSeedData("confederatestatesofamericadot.io",  "testnet-seed.confederatestatesofamericadot.io"));
+        // vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
 
         // Testnet Confederatestatesofamerica addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
